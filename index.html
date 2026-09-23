@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Consulta de medicamentos convenidos por financiador.">
+  <title>Medicación Convenida</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="encabezado">
+    <div>
+      <h1>Medicación <em>Convenida</em></h1>
+      <p>Consulta rápida por financiador, droga o nombre comercial</p>
+    </div>
+    <div class="actualizacion">
+      <button id="tema" class="tema" type="button" aria-label="Cambiar tema">☀</button>
+      <span>Última actualización</span>
+      <strong id="fechaActualizacion">15/06/2026</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="filtros" aria-label="Filtros de búsqueda">
+      <label>
+        <span>Obra social</span>
+        <select id="financiador">
+          <option value="">Todas las obras sociales</option>
+        </select>
+      </label>
+      <label class="busqueda">
+        <span>Droga / medicamento</span>
+        <input id="consulta" type="search" placeholder="Ej.: Bortezomib, Rituximab..." autocomplete="off">
+      </label>
+      <button id="limpiar" class="boton-secundario" type="button">× Limpiar</button>
+    </section>
+
+    <section class="resumen" aria-live="polite">
+      <div class="contador principal"><strong id="cantidadResultados">0</strong><span>resultados</span></div>
+      <div class="contador"><strong id="cantidadFinanciadores">0</strong><span>obras sociales</span></div>
+    </section>
+
+    <section id="resultados" class="resultados" aria-label="Resultados"></section>
+    <p id="sinResultados" class="sin-resultados" hidden>No se encontraron coincidencias. Probá con otra droga o nombre comercial.</p>
+  </main>
+
+  <footer>
+    <p>La información debe verificarse siempre contra el listado vigente del financiador.</p>
+  </footer>
+
+  <script src="datos.js"></script>
+  <script src="aplicacion.js"></script>
+</body>
+</html>
