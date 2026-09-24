@@ -4,7 +4,9 @@ Buscador estático de medicamentos convenidos por financiador.
 
 ## Contenido inicial
 
-La primera versión incluye el listado de Poder Judicial con vigencia informada al 15/06/2026. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
+La versión actual incluye los listados de Poder Judicial y APOS La Rioja. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
+
+Para APOS La Rioja se incorporaron 194 registros únicos de la propuesta de septiembre de 2026. Se excluyeron ocho duplicados exactos detectados en el PDF original.
 
 ## Publicación en GitHub Pages
 
