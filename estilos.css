@@ -161,7 +161,8 @@ select:focus, input:focus { border-color: var(--acento); box-shadow: 0 0 0 3px r
 table { width: 100%; border-collapse: collapse; }
 th { padding: 11px 18px; background: var(--tabla); color: var(--texto-suave); text-align: left; font-size: 10px; letter-spacing: .08em; text-transform: uppercase; }
 td { padding: 11px 18px; border-top: 1px solid var(--borde); font-size: 13px; }
-td:first-child { width: 46%; font-weight: 700; }
+td:first-child { width: 34%; font-weight: 700; }
+td:last-child { width: 18%; }
 .fuente { padding: 13px 18px; border-top: 1px solid var(--borde); font-size: 12px; }
 .fuente a { color: var(--acento); font-weight: 700; text-decoration: none; }
 .fuente a:hover { text-decoration: underline; }

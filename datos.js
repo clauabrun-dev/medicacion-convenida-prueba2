@@ -14,6 +14,10 @@ const FINANCIADORES = {
   "ASE-Medifé": {
     "vigencia": "Listado julio 2025",
     "archivo": "documentos/ASE_MEDIFE_2025-07.pdf"
+  },
+  "OSDE Alto Costo": {
+    "vigencia": "Listado junio 2025",
+    "archivo": "documentos/OSDE_Alto_Costo_2025-06.pdf"
   }
 };
 
@@ -3957,5 +3961,329 @@ const MEDICAMENTOS = [
     "financiador": "ASE-Medifé",
     "droga": "VINORELBINE",
     "medicamento": "VINOREL 10 MG FCO AMP"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ATEZOLIZUMAB",
+    "medicamento": "TECENTRIQ - 840 mg vial x 1 x 14 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ATEZOLIZUMAB",
+    "medicamento": "TECENTRIQ - 1200 mg vial x 1 x 20 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "AZACITIDINA",
+    "medicamento": "AZAMEX - 100 mg f.a.x 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "AZACITIDINA",
+    "medicamento": "AZZA - 100 mg iny.liof.f.a.x 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BELATACEPT",
+    "medicamento": "NULOJIX - 250mg/vial pvo.liof.x 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "BEVAX - 400 mg vial x 1 x 16 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "BEVAX - 100 mg vial x 1 x 4 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BORTEZOMIB",
+    "medicamento": "BORATER - 3.5 mg f.a.x 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BORTEZOMIB",
+    "medicamento": "BORTMEX - 3.5 mg f.a.x 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "BRENTUXIMAB",
+    "medicamento": "ADCETRIS - 50 mg vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "CABAZITAXEL",
+    "medicamento": "CABAZIL FA 1.5ML + DILUY - F.A.X 1 X 1.5 ML+DILUY.",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "CETUXIMAB",
+    "medicamento": "ERBITUX - vial x 20 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "CETUXIMAB",
+    "medicamento": "ERBITUX - vial x 100 ml",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DARATUMUMAB",
+    "medicamento": "DARZALEX 100 MG/5 ML (**) - 100 MG/5 ML VIAL X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DARATUMUMAB",
+    "medicamento": "DARZALEX 400 MG/20 ML (**) - 400 MG/20 ML VIAL X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DENOSUMAB",
+    "medicamento": "XGEVA - 120mg/1.7 ml iny.vial x1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DURVALUMAB",
+    "medicamento": "IMFINZI 120 MG VIAL X 2.4 ML - 120 MG VIAL X 1 X 2.4 ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DURVALUMAB",
+    "medicamento": "IMFINZI 500 MG VIAL X 10 ML - 500 MG VIAL X 1 X 10 ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ERIBULINA",
+    "medicamento": "ELEFIX VIAL X 1 X 2 ML - VIAL X 1 X 2 ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "INFLIXIMAB",
+    "medicamento": "IXIFI 100 MG AMP - 100 MG F.A.X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "IPILIMUMAB",
+    "medicamento": "YERVOY - 50 mg/10 ml vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ISATUXIMAB",
+    "medicamento": "SARCLISA (ISATUXIMAB 500 MG FCO AMP - 500 MG FCO AMP",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ISATUXIMAB",
+    "medicamento": "SARCLISA (ISATUXIMAB)100 MG FCO AMP - 100 MG FCO AMP",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "LEUPROLIDE,ACETATO",
+    "medicamento": "LECTRUM 22,5 ML KIT - 22,5 ML KIT",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "NAB PACLITAXEL",
+    "medicamento": "TAYCOVIT A",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "NATALIZUMAB",
+    "medicamento": "TYSABRI - 150 MG/ML JER.PRELL. X 2",
+    "auditoria": "Solo 1.ª vez"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "NATALIZUMAB",
+    "medicamento": "TYSABRI - 300 mg/15 ml vial x 1",
+    "auditoria": "Solo 1.ª vez"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "NIVOLUMAB",
+    "medicamento": "OPDIVO - 40 mg/4 ml vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "NIVOLUMAB",
+    "medicamento": "OPDIVO - 100 mg/10 ml vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "OBINUTUZUMABE",
+    "medicamento": "GAZYVA 1000 MG / 40 ML VIAL (**) - 1000 MG / 40 ML VIAL (**)",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "OCRELIZUMAB",
+    "medicamento": "OCREVUS - 300 mg/10 ml vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "OCTREOTIDA",
+    "medicamento": "SANDOSTATIN LAR 20 MG JGA PRE - 20 MG JGA.PRELL.X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "OCTREOTIDA",
+    "medicamento": "SANDOSTATIN LAR 30 MG JGA PRE - 30 MG JGA.PRELL.X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PEGASPARGASA",
+    "medicamento": "ONCASPAR PVO.P/SOL.INY.VIAL X 1 - PVO.P/SOL.INY.VIAL X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PERTUZUMAB",
+    "medicamento": "PERJETA - 420 mg/14 ml a.x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PERTUZUMAB+TRASTUZUMAB",
+    "medicamento": "PHESGO 1200/600MG VIAL X1 X15ML - 1200/600MG VIAL X1 X15ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PERTUZUMAB+TRASTUZUMAB",
+    "medicamento": "PHESGO 600/600 VIAL X 10 ML - 600/600 VIAL X 10 ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "RAMUCIRUMAB",
+    "medicamento": "CYRAMZA 100 MG 10 MG/ML F.A.X 1 X 10 ML - 100 MG 10 MG/ML F.A.X 1 X 10 ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "RITUXIMAB",
+    "medicamento": "NOVEX 100 - 100 mg vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "RITUXIMAB",
+    "medicamento": "NOVEX 500 - 500 mg vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "TOCILIZUMAB",
+    "medicamento": "ACTEMRA 200ML – 10366017 - 200MG/10ML F.A.X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "TRABECTEDINA",
+    "medicamento": "YONDELIS 1 MG FCO AMP - 1 MG FCO AMP",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "TRASTUZUMAB",
+    "medicamento": "TRAZIMERA - 440 mg f.a. x 1+ solv.",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "TRASTUZUMAB EMTANSINA",
+    "medicamento": "KADCYLA 100 MG X 1 VIAL - 100 MG VIAL X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "TRASTUZUMAB EMTANSINA",
+    "medicamento": "KADCYLA 160 MG X 1 VIAL - 160 MG VIAL X 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "VEDOLIZUMAB",
+    "medicamento": "ENTYVIO - 300 mg vial x 1",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PANITUMUMAB",
+    "medicamento": "VECTIBIX - 100 MG X 5ML",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "LEUPROLIDE",
+    "medicamento": "ELIGARD - 22.5 MG KIT",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "LEUPROLIDE",
+    "medicamento": "ELIGARD - 45 MG KIT",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ISAVUCONAZOL",
+    "medicamento": "CRESEMBA - 200 MG F.A X 1",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "ISAVUCONAZOL",
+    "medicamento": "CRESEMBA - 100 MG CAPS",
+    "auditoria": "No"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "CABAZITAXEL IV",
+    "medicamento": "BLACKXELL - 60 MG FCO AMP",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "DECITABINE",
+    "medicamento": "DETAVI - 50 MG AMPOLLAS",
+    "auditoria": "Sí"
+  },
+  {
+    "financiador": "OSDE Alto Costo",
+    "droga": "PLERIXAFOR",
+    "medicamento": "REVIXIL - 20 MG FA X 1",
+    "auditoria": "No"
   }
 ];

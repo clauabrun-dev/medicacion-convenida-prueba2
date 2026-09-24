@@ -32,7 +32,7 @@ function filtrar() {
   const consulta = normalizar(consultaInput.value);
   return MEDICAMENTOS.filter(item => {
     const coincideFinanciador = !financiador || item.financiador === financiador;
-    const textoBuscable = normalizar(`${item.droga} ${item.medicamento} ${item.financiador}`);
+    const textoBuscable = normalizar(`${item.droga} ${item.medicamento} ${item.auditoria || ''} ${item.financiador}`);
     const coincideConsulta = !consulta || textoBuscable.includes(consulta);
     return coincideFinanciador && coincideConsulta;
   });
@@ -54,6 +54,7 @@ function renderizar() {
       <tr>
         <td>${escapar(item.droga)}</td>
         <td>${escapar(item.medicamento)}</td>
+        <td>${escapar(item.auditoria || 'No informado')}</td>
       </tr>`).join('');
 
     return `
@@ -66,7 +67,7 @@ function renderizar() {
         </summary>
         <div class="tabla-contenedor">
           <table>
-            <thead><tr><th>Droga</th><th>Nombre comercial / presentación</th></tr></thead>
+            <thead><tr><th>Droga</th><th>Nombre comercial / presentación</th><th>Auditoría médica</th></tr></thead>
             <tbody>${cuerpo}</tbody>
           </table>
         </div>
