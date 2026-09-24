@@ -38,6 +38,14 @@ function filtrar() {
   });
 }
 
+function claseAuditoria(valor = 'No informado') {
+  const estado = normalizar(valor);
+  if (estado === 'si') return 'auditoria-si';
+  if (estado === 'no') return 'auditoria-no';
+  if (estado.startsWith('solo')) return 'auditoria-condicional';
+  return 'auditoria-no-informada';
+}
+
 function renderizar() {
   const filas = filtrar();
   const grupos = Object.groupBy
@@ -58,7 +66,7 @@ function renderizar() {
       <tr>
         <td>${escapar(item.droga)}</td>
         <td>${escapar(item.medicamento)}</td>
-        <td>${escapar(item.auditoria || 'No informado')}</td>
+        <td><span class="auditoria ${claseAuditoria(item.auditoria)}">${escapar(item.auditoria || 'No informado')}</span></td>
       </tr>`).join('');
 
     return `

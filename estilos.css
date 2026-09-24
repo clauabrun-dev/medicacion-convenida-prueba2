@@ -163,6 +163,21 @@ th { padding: 11px 18px; background: var(--tabla); color: var(--texto-suave); te
 td { padding: 11px 18px; border-top: 1px solid var(--borde); font-size: 13px; }
 td:first-child { width: 34%; font-weight: 700; }
 td:last-child { width: 18%; }
+.auditoria {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.auditoria-si { color: #166534; background: #dcfce7; }
+.auditoria-no { color: #991b1b; background: #fee2e2; }
+.auditoria-condicional { color: #92400e; background: #fef3c7; }
+.auditoria-no-informada { color: #475569; background: #e2e8f0; }
+body.oscuro .auditoria-si { color: #bbf7d0; background: #14532d; }
+body.oscuro .auditoria-no { color: #fecaca; background: #7f1d1d; }
+body.oscuro .auditoria-condicional { color: #fde68a; background: #78350f; }
+body.oscuro .auditoria-no-informada { color: #cbd5e1; background: #334155; }
 .fuente { padding: 13px 18px; border-top: 1px solid var(--borde); font-size: 12px; }
 .fuente a { color: var(--acento); font-weight: 700; text-decoration: none; }
 .fuente a:hover { text-decoration: underline; }
