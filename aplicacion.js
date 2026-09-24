@@ -58,10 +58,6 @@ function renderizar() {
 
   resultadosContenedor.innerHTML = Object.entries(grupos).map(([nombre, items]) => {
     const meta = FINANCIADORES[nombre];
-    const documentos = meta.archivos || [{ etiqueta: 'Listado original', archivo: meta.archivo }];
-    const fuentes = documentos.map(documento =>
-      `<a href="${escapar(encodeURI(documento.archivo))}" target="_blank" rel="noopener">Consultar ${escapar(documento.etiqueta)} ↗</a>`
-    ).join(' · ');
     const cuerpo = items.map(item => `
       <tr>
         <td>${escapar(item.droga)}</td>
@@ -83,7 +79,6 @@ function renderizar() {
             <tbody>${cuerpo}</tbody>
           </table>
         </div>
-        <div class="fuente">${fuentes}</div>
       </details>`;
   }).join('');
 }

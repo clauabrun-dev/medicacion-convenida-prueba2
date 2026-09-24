@@ -178,9 +178,6 @@ body.oscuro .auditoria-si { color: #bbf7d0; background: #14532d; }
 body.oscuro .auditoria-no { color: #fecaca; background: #7f1d1d; }
 body.oscuro .auditoria-condicional { color: #fde68a; background: #78350f; }
 body.oscuro .auditoria-no-informada { color: #cbd5e1; background: #334155; }
-.fuente { padding: 13px 18px; border-top: 1px solid var(--borde); font-size: 12px; }
-.fuente a { color: var(--acento); font-weight: 700; text-decoration: none; }
-.fuente a:hover { text-decoration: underline; }
 .sin-resultados { margin: 35px auto; padding: 20px; max-width: 620px; text-align: center; color: var(--texto-suave); }
 footer { padding: 0 20px 24px; text-align: center; color: var(--texto-suave); font-size: 12px; }
 footer .credito { margin-top: 6px; color: var(--texto); font-weight: 700; }
