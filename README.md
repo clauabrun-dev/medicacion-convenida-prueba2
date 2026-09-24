@@ -4,7 +4,7 @@ Buscador estático de medicamentos convenidos por financiador.
 
 ## Contenido inicial
 
-La versión actual incluye los listados de Poder Judicial, APOS La Rioja, APSOT, ASE-Medifé, OSDE Alto Costo, Caja Notarial, Colegio de Escribanos de la Provincia, FEMÉDICA Alto Costo, IASEP Formosa, INSSSEP Chaco, MEDICUS, OMINT y SEMPRE. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
+La versión actual incluye los listados de Poder Judicial, APOS La Rioja, APSOT, ASE-Medifé, OSDE Alto Costo, Caja Notarial, Colegio de Escribanos de la Provincia, FEMÉDICA Alto Costo, IASEP Formosa, INSSSEP Chaco, MEDICUS, OMINT, SEMPRE y Swiss Medical. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
 
 Para APOS La Rioja se incorporaron 194 registros únicos de la propuesta de septiembre de 2026. Se excluyeron ocho duplicados exactos detectados en el PDF original.
 
@@ -29,6 +29,8 @@ Para MEDICUS se incorporaron 129 registros de la actualización de julio de 2026
 Para OMINT se incorporaron 237 registros de la actualización de noviembre de 2025, cuyo encabezado interno refiere a un listado base de junio de 2025. No se detectaron duplicados exactos y el documento no identifica auditoría médica por medicamento.
 
 Para SEMPRE se incorporaron 194 registros únicos de una propuesta sin fecha de vigencia informada en el contenido. Se excluyeron tres duplicados exactos detectados en el PDF original. El documento no identifica auditoría médica por medicamento.
+
+Para Swiss Medical se incorporaron 214 registros de la propuesta de mayo de 2026, sin duplicados exactos. El documento no identifica auditoría médica por medicamento.
 
 ## Publicación en GitHub Pages
 
