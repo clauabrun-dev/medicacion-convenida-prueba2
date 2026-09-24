@@ -6,6 +6,10 @@ const FINANCIADORES = {
   "APOS La Rioja": {
     "vigencia": "Septiembre 2026 (propuesta)",
     "archivo": "documentos/APOS_La_Rioja_2026-09.pdf"
+  },
+  "APSOT": {
+    "vigencia": "Listado abril 2025",
+    "archivo": "documentos/APSOT_2025-04.pdf"
   }
 };
 
@@ -2034,5 +2038,980 @@ const MEDICAMENTOS = [
     "financiador": "APOS La Rioja",
     "droga": "ZAVICEFTA",
     "medicamento": "ZAVICEFTA 2G / 0.5 FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACETATO DE LEUPROLIDE",
+    "medicamento": "ELIGARD 22.5 MG KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACETATO DE LEUPROLIDE",
+    "medicamento": "ELIGARD 45 MG KIT X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACETATO DE LEUPROLIDE",
+    "medicamento": "LECTRUM 22,5 ML KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACETATO DE LEUPROLIDE",
+    "medicamento": "LECTRUM 3.75 MG KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACETATO DE LEUPROLIDE",
+    "medicamento": "LECTRUM 7.5 MG KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ACIDO ZOLEDRONICO",
+    "medicamento": "ACIDO ZOLEDR.MICROSULES 4 MG AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ADALIMUMAB",
+    "medicamento": "AMGEVITA 40MG/0.8ML AUTOINY X 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ADALIMUMAB",
+    "medicamento": "HUMIRA AC LAP AUTOINY 0.4ML X 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ADALIMUMAB",
+    "medicamento": "HUMIRA AC LAP AUTOINY 0.8ML X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ALFILIBERCEPT",
+    "medicamento": "EYLIA 40 mg / ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "APREPITANT",
+    "medicamento": "EMEND TRIPACK CAPS.X 1+CAPS.X2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ATEZOLIZUMAB",
+    "medicamento": "TECENTRIQ 1200mg vial x 1 x 20 ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ATEZOLIZUMAB",
+    "medicamento": "TECENTRIQ 840 mg vial x 1 x 14 ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "AZACITIDINA",
+    "medicamento": "AZAMEX 100 mg f.a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "AZACITIDINA",
+    "medicamento": "AZZA 100 mg iny.liof.f.a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "AZACITIDINA",
+    "medicamento": "AZACITIDINA LKM 100 MG AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BACILO DE CALMETTE GUERIN",
+    "medicamento": "BCG CULTIVO SSI FCO AMP X 4"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BACILO DE CALMETTE GUERIN",
+    "medicamento": "CARCIVAC FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BELATACEPT",
+    "medicamento": "NULOJIX 250mg/vial pvo.liof.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BENDAMUSTINA",
+    "medicamento": "BENDAMUSTINA KEMEX 100 MG FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BENDAMUSTINA",
+    "medicamento": "BENDAMUSTINA MICROSULES 100 MG FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BENDAMUSTINA",
+    "medicamento": "BENDAMUSTINA MICROSULES 25 MG FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BENDAMUSTINA",
+    "medicamento": "BENDAMUSTINA VARIFARMA 100 MG FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BENDAMUSTINA",
+    "medicamento": "BENDAMUSTINA VARIFARMA 25 MG FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "AVASTIN 100 MG/4 ML AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "AVASTIN 400 MG/16 ML AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "BEVAX 100 mg vial x 1 x 4 ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "BEVAX 400 mg vial x 1 x 16 ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "ZIRAVEB 100 mg/4 ml a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BEVACIZUMAB",
+    "medicamento": "ZIRAVEB 400 mg/16 ml a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BLEOMICINA",
+    "medicamento": "BLEOMICINA SULF IVAX 15 U FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BORTEZOMIB",
+    "medicamento": "BORATER 3.5 mg f.a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BORTEZOMIB",
+    "medicamento": "BORTMEX 3.5 MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BORTEZOMIB",
+    "medicamento": "GYSATY 3.5 mg f.a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BRENTUXIMAB VEDOTIN",
+    "medicamento": "ADCETRIS 50 MG FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "BUSULFAN",
+    "medicamento": "BUSULFAN 60 mg f.a.x 8 x 10 ml"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CABAZITAXEl",
+    "medicamento": "BLACKXELL 60 MG F/A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CABAZITAXEL",
+    "medicamento": "CABAZIL FA 1.5ML + DILUY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 150 MG KEMEX F.A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 150 MG MICROSULES F.A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 450 MG TEVA FCO AMP (TUTEUR)"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO GLENMARK 150 MG INY."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO GLENMARK 450 MG INY."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 150MG TUTEUR LIOF"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 450 MG KEMEX F.A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO 450 MG MICROSULES F.A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARBOPLATINO",
+    "medicamento": "CARBOPLATINO LKM 150 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARFILZOMIB",
+    "medicamento": "ALCAF 60 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARFILZOMIB",
+    "medicamento": "CARFIZOL FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CARFILZOMIB",
+    "medicamento": "FILZOCAR 60 MG TUTEUR"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CETUXIMAB",
+    "medicamento": "ERBITUX X 1 VIAL X 100 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CETUXIMAB",
+    "medicamento": "ERBITUX X 1 VIAL X 20 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CICLOFOSFAMIDA",
+    "medicamento": "CICLOFOSFAMIDA 1 GR FAMP GP PHARM"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CICLOFOSFAMIDA",
+    "medicamento": "CICLOFOSFAMIDA 200 MG FA GPPHARM"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CICLOFOSFAMIDA",
+    "medicamento": "CICLOFOSFAMIDA LKM 1GR FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CICLOFOSFAMIDA",
+    "medicamento": "CICLOFOSFAMIDA MICROSULES 1GR"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CICLOFOSFAMIDA",
+    "medicamento": "CICLOFOSFAMIDA MICROSULES 200 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CISPLATINO",
+    "medicamento": "CISPLATINO 10 MG FCO AMP TUTEUR"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CISPLATINO",
+    "medicamento": "CISPLATINO 50 MG FCO AMP TUTEUR"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CISPLATINO",
+    "medicamento": "CISPLATINO 50 MG KEMEX AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CISPLATINO",
+    "medicamento": "CISPLATINO 50 MG MICROSULES AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CITARABINA",
+    "medicamento": "CITARABINA MICROSULES 100 MG FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "CITARABINA",
+    "medicamento": "CITARABINA MICROSULES 1000 MG FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DACARBAZINA",
+    "medicamento": "DACARBAZINA VARIFARMA 200 MG AMP."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DACARBAZINA",
+    "medicamento": "ONCOCARBIL 200 200 MG INY.LIOF.F.A.X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DARATUMUMAB",
+    "medicamento": "DARZALEX 100 MG/5 ML x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DARATUMUMAB",
+    "medicamento": "DARZALEX 400 MG/20 ML x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DARATUMUMAB",
+    "medicamento": "DARZALEX SC 1800 MG/15 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DECITABINA",
+    "medicamento": "SIGNUM 50 ML FCO.AMP x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DECITABINE",
+    "medicamento": "DETAVI 50MG AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DEGARELIX",
+    "medicamento": "FIRMAGON 120MG FA X 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DEGARELIX",
+    "medicamento": "FIRMAGON 80MG FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DENOSUMAB",
+    "medicamento": "PROLIA 60 MG/ML JGA PRELL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DENOSUMAB",
+    "medicamento": "XGEVA 70MG/ML INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOCETAXEL",
+    "medicamento": "DOCETAXEL 20 MG KEMEX FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOCETAXEL",
+    "medicamento": "DOCETAXEL 20MG AMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOCETAXEL",
+    "medicamento": "DOCETAXEL 80 MG AMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOCETAXEL",
+    "medicamento": "DOCETAXEL 80 MG KEMEX FAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOSTARLIMAB",
+    "medicamento": "JEMPERLI 50MG x 10 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOXORUBICINA",
+    "medicamento": "DOXORUBICINA 10 MG MICROSULES AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOXORUBICINA",
+    "medicamento": "DOXORUBICINA 50 MG MICROSULES AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DOXORUBICINA",
+    "medicamento": "DOXORUBICINA LIPOSOMAL 20 MG INY RAFFO"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DURVALUMAB",
+    "medicamento": "IMFINZI 120 MG VIAL X 2.4 ML x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "DURVALUMAB",
+    "medicamento": "IMFINZI 500 MG VIAL X 10 ML x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "EPIRUBICINA",
+    "medicamento": "EPIRUBICINA 50 MG IMA INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ERIBULINA MASILATO",
+    "medicamento": "ELEFIX VIAL X 1 X 2 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ERITROPOYECTINA RECOMB.HUMANA",
+    "medicamento": "HEMAX 10.000 UI FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ERTAPENEM",
+    "medicamento": "INVANZ 1 G"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ETOPOSIDO",
+    "medicamento": "ETOPOSIDO MICROSULES 100 MG INY.A.X 1 X 5 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FILGRASTIM",
+    "medicamento": "FILGEN 300 MCG JGA.PRELL.X 5"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FILGRASTIM",
+    "medicamento": "NEUTROMAX 30 MUI (300 MCG) F.A.X 5"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FILGRASTIM",
+    "medicamento": "NEUTROMAX 48 MUI (480 MCG) AMP X 5"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FLUOROURACILO",
+    "medicamento": "FLUOROURACILO KEMEX 500 MG FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FLUOROURACILO",
+    "medicamento": "FLUOROURACILO MICROSULES 500MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "FOSAPREPITANT DIMEGLUMINA",
+    "medicamento": "EMEND IV VIAL 150 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GEMCITABINA",
+    "medicamento": "GEMCITABINA 1 GR GP PHARM F.AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GEMCITABINA",
+    "medicamento": "GEMCITABINA 1 GR KEMEX F.AMP."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GEMCITABINA",
+    "medicamento": "GEMCITABINA 200 MG GP PHARM F.AMP."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GEMCITABINA",
+    "medicamento": "GEMCITABINA 200 MG KEMEX F.AMP."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GOSERELIN",
+    "medicamento": "ZOLADEX 3.6 MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "GOSERELIN",
+    "medicamento": "ZOLADEX LA 10.8 MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "HIERRO",
+    "medicamento": "FERINJECT INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IFOSFAMIDA",
+    "medicamento": "IFOSFAMIDA 1 GR MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "AGACEL 100 MG COMP x 180"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "AGACEL 400 MG COMP x 30"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "GLIVEC 100 MG COMP x 60"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "GLIVEC 400 MG COMP x 30"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "TIMAB 100 MG COMP x 180"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IMATINIB",
+    "medicamento": "TIMAB 400 MG COMP x 30"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "INFLIXIMAB",
+    "medicamento": "IXIFI 100 MG AMP x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "INMUNOGLOBULINA HUMANA NORMAL",
+    "medicamento": "CIELDOM 5 GR FA X 100 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "INMUNOGLOBULINA HUMANA NORMAL",
+    "medicamento": "PRIVIGEN 10 GR FA 100 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "INMUNOGLOBULINA HUMANA NORMAL",
+    "medicamento": "PRIVIGEN 5 GR FA 50 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IPILIMUMAB",
+    "medicamento": "YERVOY 50 mg/10 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IRINOTECAN",
+    "medicamento": "IRINOTECAN GLENMARK 100 MG FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IRINOTECAN",
+    "medicamento": "IRINOTECAN KEMEX 100 MG FA"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "IRINOTECAN",
+    "medicamento": "IRINOTECAN MICROSULES 100 MG FCOAMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ISATUXIMAB",
+    "medicamento": "SARCLISA (ISATUXIMAB 100 MG FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ISATUXIMAB",
+    "medicamento": "SARCLISA (ISATUXIMAB 500 MG FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "LEUCOVORINA",
+    "medicamento": "LEUCOCALCIN 15 MG COMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "LEUCOVORINA CALCICA",
+    "medicamento": "LEUCOVORINA 50 MG TUTEUR AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "LIPEGFILGRASTIM",
+    "medicamento": "LONQUEX 6 MG JGA PRELL X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "MELFALANO INYECTABLE IM",
+    "medicamento": "MELFALAN FRIMIRT 50 MG IV"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "MEPREDNISONA",
+    "medicamento": "DELTISONA B 40 MG COMP.X 20"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "METOTREXATO",
+    "medicamento": "METOTREXATO 1000 MG FAMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "METOTREXATO",
+    "medicamento": "METOTREXATO 50 MG FAMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "METOTREXATO",
+    "medicamento": "METOTREXATO 500 MG FAMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "MITOMICINA",
+    "medicamento": "MITOMICINA C 20 MG F AMP MICROSULES"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NATALIZUMAB",
+    "medicamento": "TYSABRI 150 MG/ML JER.PRELL. X 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NATALIZUMAB",
+    "medicamento": "TYSABRI 300 mg/15 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NETUPITANT",
+    "medicamento": "AKYNZEO"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NIVOLUMAB",
+    "medicamento": "OPDIVIO 100 mg/10 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NIVOLUMAB",
+    "medicamento": "OPDIVIO 40 mg/4 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "NIVOLUMAB",
+    "medicamento": "OPDIVO 240MG/24ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OBINUTUZUMAB",
+    "medicamento": "GAZYVA 1000 MG / 40 ML VIAL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OCRELIZUMAB",
+    "medicamento": "OCREVUS 300 mg/10 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OCTREOTTIDA",
+    "medicamento": "SANDOSTATIN LAR 20 MG JGA PRE x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OCTREOTTIDA",
+    "medicamento": "SANDOSTATIN LAR 30 MG JGA PRE x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OMALIZUMAB",
+    "medicamento": "XOLAIR 150 MG FAMP X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OMALIZUMAB",
+    "medicamento": "XOLAIR 150 MG JGA PRELL X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ONDANSETRON",
+    "medicamento": "ONDANSETRON FRESENIUS 8 MG AMPOLLAS"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "ONDANSETRON",
+    "medicamento": "ONDANSETRON LKM 8 8 MG COMP.X 10"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OXALIPLATINO",
+    "medicamento": "OXALIPLATINO KEMEX100MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OXALIPLATINO",
+    "medicamento": "OXALIPLATINO MICROSULES 100MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OXALIPLATINO",
+    "medicamento": "OXALIPLATINO 50 MG KEMEX INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "OXALIPLATINO",
+    "medicamento": "OXALIPLATINO MICROSULES 50MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PACLITAXEL",
+    "medicamento": "PACLITAXEL KEMEX 30 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PACLITAXEL",
+    "medicamento": "PACLITAXEL KEMEX 100 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PACLITAXEL",
+    "medicamento": "PACLITAXEL KEMEX 150 MG"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PACLITAXEL ALBUMINA",
+    "medicamento": "TAYCOVIT A"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PACLITAXEL + ALBUMINA",
+    "medicamento": "ABRAXANE 100MG INY"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PAMIDRONATO DISODICO",
+    "medicamento": "AMINOMUX 30 MG INY.LIOF.F.A.X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PAMIDRONATO DISODICO",
+    "medicamento": "AMINOMUX 90 MG INY.LIOF.F.A.X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PANITUMUMAB INYECTABLE IV",
+    "medicamento": "VECTIBIX 100 MG X 5ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PEGASPARGASA",
+    "medicamento": "ONCASPAR PVO.P/SOL.INY.VIAL X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PEGFILGRASTIM",
+    "medicamento": "PEG NEUTROPINE PA 6MG JGA.PRELL.X1+PROT.A."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PEMBROLIZUMAB",
+    "medicamento": "KEYTRUDA ENVASE 100 MG VIAL X 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PEMETREXED",
+    "medicamento": "PEMETREXED 500 GP FARM"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PEMETREXED",
+    "medicamento": "PEMETREXED 500 KEMEX FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PERTUZUMAB",
+    "medicamento": "PERJETA 420 mg/14 ml a.x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PERTUZUMAB + TRASTUZUMAB SC",
+    "medicamento": "PERJETA - HERCEPTIN IV COMBO PACK Kit Inyectable"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PERTUZUMAB + TRASTUZUMAB SC",
+    "medicamento": "PHESGO 1200/600MG VIAL X1 X15ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PERTUZUMAB + TRASTUZUMAB SC",
+    "medicamento": "PHESGO 600/600 VIAL X 10 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PIPERACILINA + TAZOBACTAM",
+    "medicamento": "PIPERACILINA TAZOBACTAM DRAWER 4,5 G f.a"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "PLERIZAFOR",
+    "medicamento": "REVIXIL 20 MG X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RAMUCIRUMAB",
+    "medicamento": "CYRAMZA 500 MG 10 MG/ML F.A.X 1 X 50 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RANIBIZUMAB",
+    "medicamento": "LUCENTIS 1VIAL X 0,23 ML"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB SC",
+    "medicamento": "MABTHERA SC 1400 mg/11.7 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "NOVEX 100 MG VIAL ENV X 1 AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "NOVEX 500 MG VIAL x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "RUXIENCE 100 mg/10 ml f.a x 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "RUXIENCE 500 MG VIAL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "TRUXIMA 100 mg/10 ml f.a x 2"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "RITUXIMAB IV",
+    "medicamento": "TRUXIMA 500 mg/50 ml f.a x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "SECUKINUMAB",
+    "medicamento": "COSENTYX 150MG / 1ML AUTOINY X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "SECUKINUMAB",
+    "medicamento": "COSENTYX 300MG / 2ML AUTOINY X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "SOMATOTROFINA",
+    "medicamento": "NORDITROPIN FLEXPRO 15 MG X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TOXINA BOTULINICA",
+    "medicamento": "TOXINA BOTULINICA (BOTOX) 100UI AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRABECTEDINA",
+    "medicamento": "YONDELIS 1 MG FCO AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB",
+    "medicamento": "HERCEPTIN 440 MG X 50 ML AMP"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB",
+    "medicamento": "HERCEPTIN SC 600 mg/5 ml vial x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB",
+    "medicamento": "TRAZIMERA 440 mg f.a. x 1+ solv."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB",
+    "medicamento": "TUZEPTA 440 mg f.a. x 1+ solv."
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB EMTANSINA",
+    "medicamento": "KADCYLA 100 MG X 1 VIAL x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRASTUZUMAB EMTANSINA",
+    "medicamento": "KADCYLA 160 MG X 1 VIAL x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRIPTORELINA",
+    "medicamento": "DECAPEPTYL RETARD IM 3.75 MG KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "TRIPTORELINA",
+    "medicamento": "DECAPEPTYL RETARD IM 11.25 MG KIT"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "USTEKINUMAB",
+    "medicamento": "STELARA 90 MG/1 ML VIAL+J.PRELL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "USTEKINUMAB",
+    "medicamento": "STELARA IV 130MG/26ML VIAL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VEDOLIZUMAB",
+    "medicamento": "ENTYVIO 300 MG VIAL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VEDOLIZUMAB",
+    "medicamento": "ENTYVIO SC JGA PRELL"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VINBLASTINA",
+    "medicamento": "VINBLASTINA KEMEX 10MG x 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VINCRISTINA",
+    "medicamento": "VINCRISTINA KEMEX 1 MG INY.A.X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VINCRISTINA",
+    "medicamento": "VINCRISTINA LKM 1 1 MG INY.A.X 1"
+  },
+  {
+    "financiador": "APSOT",
+    "droga": "VINORELBINE",
+    "medicamento": "VINOREL 10 MG FCO AMP"
   }
 ];
