@@ -4,7 +4,7 @@ Buscador estático de medicamentos convenidos por financiador.
 
 ## Contenido inicial
 
-La versión actual incluye los listados de Poder Judicial, APOS La Rioja, APSOT, ASE-Medifé, OSDE Alto Costo, Caja Notarial, Colegio de Escribanos de la Provincia y FEMÉDICA Alto Costo. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
+La versión actual incluye los listados de Poder Judicial, APOS La Rioja, APSOT, ASE-Medifé, OSDE Alto Costo, Caja Notarial, Colegio de Escribanos de la Provincia, FEMÉDICA Alto Costo, IASEP Formosa e INSSSEP Chaco. La base contiene droga y nombre comercial/presentación; no incluye los códigos HA de internación ni de ambulatorio.
 
 Para APOS La Rioja se incorporaron 194 registros únicos de la propuesta de septiembre de 2026. Se excluyeron ocho duplicados exactos detectados en el PDF original.
 
@@ -19,6 +19,10 @@ Para Caja Notarial se incorporaron 157 registros del listado de julio de 2026, s
 Para Colegio de Escribanos de la Provincia se incorporaron 184 registros, sin duplicados exactos. El documento informa vigencia desde el 1 de julio, sin especificar el año en el contenido, y no identifica auditoría médica por medicamento.
 
 Para FEMÉDICA Alto Costo se incorporaron 187 registros del listado de julio de 2026, sin duplicados exactos. El documento no identifica auditoría médica por medicamento; por ese motivo la columna se muestra como "No informado".
+
+Para IASEP Formosa se incorporaron 194 registros únicos con vigencia 1/9/2025. Se excluyeron ocho duplicados exactos detectados en el PDF original. El documento no identifica auditoría médica por medicamento.
+
+Para INSSSEP Chaco se incorporaron 195 registros con vigencia 20/7/2026, sin duplicados exactos. El documento no identifica auditoría médica por medicamento.
 
 ## Publicación en GitHub Pages
 
