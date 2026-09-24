@@ -183,6 +183,7 @@ body.oscuro .auditoria-no-informada { color: #cbd5e1; background: #334155; }
 .fuente a:hover { text-decoration: underline; }
 .sin-resultados { margin: 35px auto; padding: 20px; max-width: 620px; text-align: center; color: var(--texto-suave); }
 footer { padding: 0 20px 24px; text-align: center; color: var(--texto-suave); font-size: 12px; }
+footer .credito { margin-top: 6px; color: var(--texto); font-weight: 700; }
 
 @media (max-width: 760px) {
   .encabezado { align-items: flex-start; }
