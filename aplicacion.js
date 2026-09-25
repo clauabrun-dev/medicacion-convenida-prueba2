@@ -42,7 +42,7 @@ function claseAuditoria(valor = 'No informado') {
   const estado = normalizar(valor);
   if (estado === 'si') return 'auditoria-si';
   if (estado === 'no') return 'auditoria-no';
-  if (estado.startsWith('solo')) return 'auditoria-condicional';
+  if (estado.startsWith('solo') || (estado.includes('si') && estado.includes('no'))) return 'auditoria-condicional';
   return 'auditoria-no-informada';
 }
 

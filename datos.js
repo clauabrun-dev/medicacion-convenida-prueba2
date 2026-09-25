@@ -5074,6 +5074,60 @@ MEDICAMENTOS.push(...[
   auditoria: "No informado"
 })));
 
+for (const item of MEDICAMENTOS) {
+  if (item.financiador === "OSDE Alto Costo" && [
+    "PEG NEUTROPINE PA - 6MG JGA.PRELL.X1+PROT.A.",
+    "LONQUEX - JGA.PRELL. X 1 X 0.06 ML"
+  ].includes(item.medicamento)) {
+    item.auditoria = "Sí";
+  }
+}
+
+MEDICAMENTOS.push(
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "HIERRO",
+    medicamento: "FERINJECT INY",
+    auditoria: "AMB No / INT Sí"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "ERITROPOYETINA",
+    medicamento: "-",
+    auditoria: "Sí"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "INMUNOGLOBULINA HUMANA",
+    medicamento: "PRIVIGEN 5 GR 50 ML",
+    auditoria: "No informado"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "INMUNOGLOBULINA HUMANA",
+    medicamento: "PRIVIGEN 10 GR 100 ML",
+    auditoria: "No informado"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "INMUNOGLOBULINA HUMANA",
+    medicamento: "PRIVIGEN 20 GR 200 ML",
+    auditoria: "No informado"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "INMUNOGLOBULINA HUMANA",
+    medicamento: "CIELDOM 10 GR 200 ML",
+    auditoria: "No informado"
+  },
+  {
+    financiador: "OSDE Alto Costo",
+    droga: "INMUNOGLOBULINA HUMANA",
+    medicamento: "CIELDOM 5 GR 100 ML",
+    auditoria: "No informado"
+  }
+);
+
 MEDICAMENTOS.push(...[
   ["BEVACIZUMAB", "AVASTIN 400 MG/16 ML AMP"],
   ["CICLOFOSFAMIDA", "CICLOFOSFAMIDA LKM 1GR FA"],
