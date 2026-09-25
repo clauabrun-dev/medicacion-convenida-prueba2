@@ -10,7 +10,7 @@ Para APOS La Rioja se incorporaron 194 registros únicos de la propuesta de sept
 
 Para APSOT se incorporaron 195 registros del listado de abril de 2025, sin duplicados exactos.
 
-Para ASE-Medifé se incorporaron 188 registros del listado de julio de 2025, sin duplicados exactos.
+Para ASE-Medifé se incorporaron 194 registros del listado de julio de 2025, sin duplicados exactos. La revisión página por página permitió recuperar seis registros ubicados en el primer renglón de las páginas 2 a 7 del PDF.
 
 Para OSDE Alto Costo se conservaron 54 registros del listado de junio de 2025, que informa la condición de auditoría médica (Sí, No o Solo 1.ª vez), y se agregaron 541 registros complementarios del anexo oncológico de agosto de 2026. El anexo no identifica auditoría médica por medicamento; por ese motivo, en esos registros se muestra "No informado". OSDE totaliza 595 registros y ambos documentos fuente se encuentran disponibles desde la página.
 

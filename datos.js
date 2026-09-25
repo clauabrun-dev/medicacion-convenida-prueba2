@@ -5075,6 +5075,20 @@ MEDICAMENTOS.push(...[
 })));
 
 MEDICAMENTOS.push(...[
+  ["BEVACIZUMAB", "AVASTIN 400 MG/16 ML AMP"],
+  ["CICLOFOSFAMIDA", "CICLOFOSFAMIDA LKM 1GR FA"],
+  ["DURVALUMAB", "IMFINZI 500 MG VIAL X 10 ML x 1"],
+  ["INMUNOGLOBULINA HUMANA NORMAL", "PRIVIGEN 5 GR FA 50 ML"],
+  ["ONDANSETRON", "ONDANSETRON LKM 8 8 MG COMP.X 10"],
+  ["RITUXIMAB IV", "RUXIENCE 100 mg/10 ml f.a x 2"]
+].map(([droga, medicamento]) => ({
+  financiador: "ASE-Medifé",
+  droga,
+  medicamento,
+  auditoria: "No informado"
+})));
+
+MEDICAMENTOS.push(...[
   ["ACETATO DE LEUPROLIDE","ELIGARD 22.5 MG KIT"],
   ["ACETATO DE LEUPROLIDE","ELIGARD 45 MG KIT X 1"],
   ["ACETATO DE LEUPROLIDE","LECTRUM 22,5 ML KIT"],
