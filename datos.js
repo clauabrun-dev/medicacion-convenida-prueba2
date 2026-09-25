@@ -1,21 +1,28 @@
 const FINANCIADORES = {
   "Poder Judicial": {
+    "color": "#6B4F3A",
     "vigencia": "15/06/2026",
     "archivo": "documentos/Poder_Judicial_2026-06-15.pdf"
   },
   "APOS La Rioja": {
+    "color": "#8B1E3F",
     "vigencia": "Septiembre 2026 (propuesta)",
     "archivo": "documentos/APOS_La_Rioja_2026-09.pdf"
   },
   "APSOT": {
+    "color": "#5B3F8C",
     "vigencia": "Listado abril 2025",
     "archivo": "documentos/APSOT_2025-04.pdf"
   },
   "ASE-Medifé": {
+    "color": "#E65300",
+    "logo": "logos/medife.png",
     "vigencia": "Listado julio 2025",
     "archivo": "documentos/ASE_MEDIFE_2025-07.pdf"
   },
   "OSDE Alto Costo": {
+    "color": "#1546B8",
+    "logo": "logos/osde.png",
     "vigencia": "Listados complementarios: junio 2025 y agosto 2026",
     "archivos": [
       {
@@ -29,38 +36,47 @@ const FINANCIADORES = {
     ]
   },
   "Caja Notarial": {
+    "color": "#00796B",
     "vigencia": "Listado julio 2026",
     "archivo": "documentos/Caja_Notarial_2026-07.pdf"
   },
   "Colegio de Escribanos de la Provincia": {
+    "color": "#9A6700",
     "vigencia": "1 de julio (año no informado)",
     "archivo": "documentos/Colegio_Escribanos_Provincia.pdf"
   },
   "FEMÉDICA Alto Costo": {
+    "color": "#B3261E",
     "vigencia": "Julio 2026",
     "archivo": "documentos/FEMEDICA_Alto_Costo_2026-07.pdf"
   },
   "IASEP Formosa": {
+    "color": "#2E7D32",
     "vigencia": "1/9/2025",
     "archivo": "documentos/IASEP_Formosa_2025-09-01.pdf"
   },
   "INSSSEP Chaco": {
+    "color": "#006A6A",
     "vigencia": "20/7/2026",
     "archivo": "documentos/INSSSEP_Chaco_2026-07-20.pdf"
   },
   "MEDICUS": {
+    "color": "#005B8F",
     "vigencia": "Julio 2026",
     "archivo": "documentos/MEDICUS_2026-07.pdf"
   },
   "OMINT": {
+    "color": "#7A3E9D",
     "vigencia": "Actualización noviembre 2025 (documento base junio 2025)",
     "archivo": "documentos/OMINT_Actualizacion_2025-11.pdf"
   },
   "SEMPRE": {
+    "color": "#C45100",
     "vigencia": "Propuesta (fecha no informada)",
     "archivo": "documentos/SEMPRE_Propuesta.pdf"
   },
   "Swiss Medical": {
+    "color": "#D21F3C",
     "vigencia": "Propuesta mayo 2026",
     "archivo": "documentos/Swiss_Medical_Propuesta_2026-05.pdf"
   }
