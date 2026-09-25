@@ -58,9 +58,6 @@ function renderizar() {
 
   resultadosContenedor.innerHTML = Object.entries(grupos).map(([nombre, items]) => {
     const meta = FINANCIADORES[nombre];
-    const logo = meta.logo
-      ? `<img class="logo-financiador" src="${escapar(meta.logo)}" alt="Logo de ${escapar(nombre)}">`
-      : '';
     const cuerpo = items.map(item => `
       <tr>
         <td>${escapar(item.droga)}</td>
@@ -71,7 +68,6 @@ function renderizar() {
     return `
       <details class="grupo" style="--financiador-color: ${escapar(meta.color || '#164e70')}" open>
         <summary>
-          ${logo}
           <h2>${escapar(nombre)}</h2>
           <span class="vigencia">Vigencia: ${escapar(meta.vigencia)}</span>
           <span class="items">${items.length} ítems</span>

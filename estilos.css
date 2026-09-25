@@ -154,7 +154,6 @@ select:focus, input:focus { border-color: var(--acento); box-shadow: 0 0 0 3px r
 .grupo summary::-webkit-details-marker { display: none; }
 .grupo summary::before { content: ""; width: 10px; height: 10px; flex: 0 0 10px; border-radius: 50%; background: var(--financiador-color); }
 .grupo h2 { margin: 0; color: var(--financiador-color); font-family: Georgia, serif; font-size: 20px; }
-.logo-financiador { width: auto; max-width: 112px; height: 30px; object-fit: contain; }
 .grupo .vigencia { color: var(--texto-suave); font-size: 12px; }
 .grupo .items { margin-left: auto; padding: 4px 10px; background: var(--fondo); border-radius: 999px; color: var(--texto-suave); font-size: 12px; }
 .grupo .flecha { color: var(--texto-suave); transition: transform .2s; }
@@ -193,7 +192,6 @@ footer .credito { margin-top: 6px; color: var(--texto); font-weight: 700; }
   .resumen { flex-wrap: wrap; }
   .contador { flex: 1; min-width: 140px; }
   .grupo summary { flex-wrap: wrap; padding: 13px 15px; }
-  .logo-financiador { max-width: 92px; height: 26px; }
   .grupo .items { margin-left: 0; }
   th, td { padding: 10px 13px; }
   .actualizacion span { display: none; }

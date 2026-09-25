@@ -16,13 +16,11 @@ const FINANCIADORES = {
   },
   "ASE-Medifé": {
     "color": "#E65300",
-    "logo": "logos/medife.png",
     "vigencia": "Listado julio 2025",
     "archivo": "documentos/ASE_MEDIFE_2025-07.pdf"
   },
   "OSDE Alto Costo": {
     "color": "#1546B8",
-    "logo": "logos/osde.png",
     "vigencia": "Listados complementarios: junio 2025 y agosto 2026",
     "archivos": [
       {
